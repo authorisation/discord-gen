@@ -148,15 +148,6 @@ client.on("message", async message => {
         }});
     }
 
-    /*
-    if(command === "ban") {
-        message.channel.send({embed: {
-            color: 16134159,
-            description: "User Succesfully Banned!"
-        }});
-    }
-    */
-
     if(command === "instagram") {
         UsedCommandRecently.add(message.author.id);
         message.channel.send({embed: {
